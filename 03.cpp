@@ -21,7 +21,7 @@ for(int i=0;i<10;i++)
 p=arr;
 for(int i=0;i<10;i++)
 {
-	cout<<*p+i;
+	cout<<*(p+i);
 }
 
 return 0;
